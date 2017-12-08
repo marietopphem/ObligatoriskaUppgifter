@@ -1,3 +1,3 @@
 # Uppgifter
 
-Obligatoriska uppgifter i PHP till kursen Webbprogrammering - Server
+Obligatoriska uppgifter i PHP till kursen Webbutveckling - Serversidan
