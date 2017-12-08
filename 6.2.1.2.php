@@ -16,6 +16,7 @@ $conn = databaseConnection();
 
 
 $sql = "SELECT id, time, name, email, webpage, comment FROM Guests";
+
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -44,7 +45,7 @@ if ($result->num_rows > 0) {
         ;
     }
 } else {
-    echo "0 results";
+    echo "Inget tillagt i databasen";
 }
 
 function XSSProtection($output){ //tar bort kod som kan ändra html outlay och scripts
