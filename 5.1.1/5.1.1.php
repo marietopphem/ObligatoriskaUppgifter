@@ -42,7 +42,7 @@ else {
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 465;                                      //Kan även använda porten 587
     $mail->SMTPAuth = true;
-    $mail->Username = 'marietopphem@gmail.com';             //Byta ut till eget id
+    $mail->Username = 'topphem@gmail.com';             //Byta ut till eget id
     $mail->Password = 'pgvyfoqxqegcfzkd';                   //Byta ut till eget lösenord
     $mail->SMTPSecure = 'ssl';
 
