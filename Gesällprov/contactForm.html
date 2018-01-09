@@ -8,38 +8,39 @@
 <body>
 
 <header>
-    <h1>Kontakt</h1>
+    <h1>Skicka GIF</h1>
 </header>
 
-<form>
+<form method="post" enctype="multipart/form-data" action="contactForm.php">
     <table>
 
         <tr>
             <td>
-                Namn:
+                Email avsändare:
             </td>
             <td>
-                <input type="text" name="name" size="42">
+                <input type="text" name="mail" size="42">
             </td>
         </tr>
 
         <tr>
             <td>
-                Företag:
+                Ämne:
             </td>
             <td>
-                <input type="text" name="company" size="42">
+                <input type="text" name="subject" size="42">
             </td>
         </tr>
 
         <tr>
             <td>
-                Tel.nr:
+                Email mottagare:
             </td>
             <td>
-                <input type="text" name="phoneNumber" size="42">
+                <input type="text" name="email" size="42">
             </td>
         </tr>
+
 
         <tr>
             <td>
@@ -50,6 +51,37 @@
             </td>
         </tr>
 
+
+        <tr>
+            <td>
+                Välj filer till gif<br>
+                <input type="file" name="file1" value="file1" size="50">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="file" name="file2" value="file2" size="50">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <br>
+                <input type="submit">
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+<form action="Startpage.html">
+    <table>
+        <tr>
+            <td>
+                <input type="submit" value="Tillbaka">
+            </td>
+        </tr>
     </table>
 </form>
 
