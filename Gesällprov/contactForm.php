@@ -45,7 +45,7 @@ else {
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 465;
     $mail->SMTPAuth = true;
-    $mail->Username = 'marietopphem@gmail.com';
+    $mail->Username = 'topphem@gmail.com';
     $mail->Password = 'pgvyfoqxqegcfzkd';
     $mail->SMTPSecure = 'ssl';
 
